@@ -75,3 +75,5 @@ Live Expressions
 ## Демонстрація роботи
 
 [![Переглянути відео](https://github.com/user-attachments/assets/2bb4dbcc-9d4f-4bd8-bf9d-bb7b0b7cf5ae)](https://drive.google.com/file/d/13qyvj5gRWeiZHrXewYpmiSxDpugw7d8-/view?usp=sharing)
+
+## github зжер всю якість, але воно чесно працює :(( 
