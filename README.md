@@ -55,6 +55,7 @@ pitch = atan2(-ax, sqrt(ay*ay + az*az));
 '''
 
 Використовується комплементарний фільтр:
+
 '''
 angle_x_deg = alpha * (angle_x_deg + gyro_x_dps * dt) + (1.0f - alpha) * acc_roll_deg;
 angle_y_deg = alpha * (angle_y_deg + gyro_y_dps * dt) + (1.0f - alpha) * acc_pitch_deg;
