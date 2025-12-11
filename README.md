@@ -72,6 +72,6 @@ Live Expressions
 
 <img width="675" height="217" alt="image" src="https://github.com/user-attachments/assets/775ad018-c7a5-48ec-b266-d9b4047829a4" />
 
-<img width="525" height="935" alt="image" src="https://github.com/user-attachments/assets/2bb4dbcc-9d4f-4bd8-bf9d-bb7b0b7cf5ae" />
 ## Демонстрація роботи
-[![відео](<img width="675" height="217" alt="image" src="https://github.com/user-attachments/assets/775ad018-c7a5-48ec-b266-d9b4047829a4" />)]([https://drive.google.com/file/d/ID_ФАЙЛУ/view?usp=sharing](https://drive.google.com/file/d/13qyvj5gRWeiZHrXewYpmiSxDpugw7d8-/view?usp=sharing))
+
+[![Переглянути відео](https://github.com/user-attachments/assets/2bb4dbcc-9d4f-4bd8-bf9d-bb7b0b7cf5ae)](https://drive.google.com/file/d/13qyvj5gRWeiZHrXewYpmiSxDpugw7d8-/view?usp=sharing)
