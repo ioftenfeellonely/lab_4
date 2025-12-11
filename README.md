@@ -49,24 +49,24 @@ STM32F401CBU6, варіант 2
 - З акселерометра обчислюються кути:
   - (*roll*) і (*pitch*) через `atan2`:
   
-'''
+```
 roll  = atan2(ay, az);
 pitch = atan2(-ax, sqrt(ay*ay + az*az));
-'''
+```
 
 Використовується комплементарний фільтр:
 
-'''
+```
 angle_x_deg = alpha * (angle_x_deg + gyro_x_dps * dt) + (1.0f - alpha) * acc_roll_deg;
 angle_y_deg = alpha * (angle_y_deg + gyro_y_dps * dt) + (1.0f - alpha) * acc_pitch_deg;
 angle_z_deg = angle_z_deg + gyro_z_dps * dt;    // yaw – тільки гіроскоп
-'''
+```
 де alpha ≈ 0.98, а dt — реальний інтервал часу між вимірюваннями (через HAL_GetTick()).
 
 Для зменшення накопичення дрібного шуму використовується dead-zone:
-'''
+```
 if (fabsf(gx) < 0.5f) gx = 0.0f;
-'''
+```
 
 *** Виведення значень
 Live Expressions
